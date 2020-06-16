@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var CLOUD_WIDTH = 420;
 var CLOUD_HEIGHT = 270;
@@ -9,7 +9,6 @@ var GAP_BARS = 50;
 var FONT_GAP = 16;
 var BAR_WIDTH = 40;
 var barHeight = CLOUD_HEIGHT - 6 * GAP - FONT_GAP * 4;
-var BAR_MAX_HEIGHT = 150;
 
 
 var renderCloud = function (ctx, x, y, color) {
